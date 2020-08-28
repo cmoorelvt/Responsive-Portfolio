@@ -1,0 +1,77 @@
+.nav-link {
+  color: black
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+  }
+
+  body {
+    background-image: url(background-image.jpg);
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+label {
+    color: rgb(59, 59, 59);
+    text-indent: 15px;
+}
+
+img {
+    margin-top: 25px;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.card-w-50 {
+    position: absolute;
+}
+
+.card-header {
+    text-transform: uppercase;
+}
+
+.container {
+  padding: 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+
+  @media screen and (max-width: 1024px){
+    .container {
+      width: 100%;
+      margin-left: 125px;
+      margin-top: 150px;
+    }
+  }
+
+  @media screen and (max-width: 280px) {
+    .container {
+      width: 100%;
+    }
+
+    img {
+      width: 100%;
+      padding: 20px; 
+    }
+  }

@@ -44,6 +44,8 @@ img {
 
 .container {
   padding: 20px;
+  float: left;
+  margin-left: 150px;
 }
 
 footer {

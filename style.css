@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .nav-link {
   color: black
 }
@@ -45,7 +50,6 @@ img {
 .container {
   padding: 20px;
   float: left;
-  margin-left: 150px;
 }
 
 footer {
@@ -67,11 +71,12 @@ footer {
     }
   }
 
-  @media screen and (max-width: 280px) {
+  @media screen and (max-width: 768px;) {
     .container {
-      width: 100%;
+      font-size: 18px;
     }
-
+  }
+  
     img {
       width: 100%;
       padding: 20px; 

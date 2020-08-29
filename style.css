@@ -16,7 +16,6 @@
     width: 1.5em;
     height: 1.5em;
     vertical-align: middle;
-    content: "";
     background: no-repeat center center;
     background-size: 100% 100%;
   }
@@ -37,7 +36,9 @@ img {
     float: left;
     padding-left: 25px;
     padding-right: 25px;
-}
+    width: 100%;
+    padding: 20px; 
+    }
 
 .card-w-50 {
     position: absolute;
@@ -62,23 +63,15 @@ footer {
     text-align: center;
   }
 
-
-  @media screen and (max-width: 1024px){
-    .container {
-      width: 100%;
-      margin-left: 125px;
-      margin-top: 150px;
-    }
-  }
-
   @media screen and (max-width: 768px;) {
     .container {
-      font-size: 18px;
+      margin: 0 2% 55% 2%;
+      width: 600px;
     }
   }
-  
-    img {
-      width: 100%;
-      padding: 20px; 
+
+  @media screen and (max-width: 414px;) {
+    .container {
+      width: 300px;
     }
   }

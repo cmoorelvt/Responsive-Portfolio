@@ -21,7 +21,7 @@
   }
 
   body {
-    background-image: url(background-image.jpg);
+    background-image: url(./images/background-image.jpg);
     font-family: 'Montserrat', sans-serif;
   }
 
@@ -37,7 +37,13 @@ img {
     padding-right: 25px;
     width: 100%;
     padding: 20px; 
+    border-color: black;
+    border-image-outset: 10px;
     }
+
+p {
+ text-align: center;
+}
 
 .card-w-50 {
     position: absolute;

@@ -44,6 +44,10 @@ img {
     border-image-outset: 10px;
     }
 
+a {
+  color: black;
+}
+
 p {
  text-align: center;
  padding: 10%;

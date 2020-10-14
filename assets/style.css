@@ -25,6 +25,9 @@
     font-family: 'Montserrat', sans-serif;
   }
 
+.container {
+  align-self: center;
+}
 
 label {
     color: rgb(59, 59, 59);
@@ -43,6 +46,7 @@ img {
 
 p {
  text-align: center;
+ padding: 10%;
 }
 
 .card-w-50 {
